@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "wp-scripts start",
-    "build": "wp-scripts build"
+    "build": "wp-scripts build",
+    "watch": "grunt watch",
+    "compile": "grunt",
+    "lint": "stylelint */*.scss"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,22 @@
   },
   "homepage": "https://github.com/kirstyburgoine/wp-admin-color-scheme#readme",
   "devDependencies": {
-    "@wordpress/scripts": "^9.1.0"
+    "@wordpress/scripts": "^9.1.0",
+    "grunt": "1.1.0",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-rtlcss": "2.0.2",
+    "grunt-sass": "3.1.0",
+    "matchdep": "2.0.0",
+    "node-sass": "4.13.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-wordpress": "^16.0.0"
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-wordpress/scss"
+    ],
+    "rules": {
+      "no-descending-specificity": null
+    }
   }
 }
