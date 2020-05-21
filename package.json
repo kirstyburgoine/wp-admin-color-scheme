@@ -1,0 +1,24 @@
+{
+  "name": "kb-admin-color-scheme",
+  "version": "1.0.0",
+  "description": "Test plugin enviroment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirstyburgoine/wp-admin-color-scheme.git"
+  },
+  "author": "Kirsty Burgoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirstyburgoine/wp-admin-color-scheme/issues"
+  },
+  "homepage": "https://github.com/kirstyburgoine/wp-admin-color-scheme#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^9.1.0"
+  }
+}
