@@ -24,7 +24,9 @@ Color Scheme originally created here: https://www.colourlovers.com/palette/87163
 ### TODO:
 
 - [ ] Create colour palette of SASS variables and replace hex codes.
+- [ ] Improve contrast where needed, especially some hover / focus / active states.
 - [ ] Look at simplifying colour usage (removing the very specific chains of selectors currently in the plugin).
 - [ ] Include correct PostCSS configuration.
 - [ ] Look at implementing CSS Custom Properties.
+- [ ] Add option to implememnt dark theme (this would be a super cool experiment using the low level light API as well)
 - [ ] And probably loads more tasks still too :)
