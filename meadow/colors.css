@@ -1,3 +1,4 @@
+/** TODO: - Create colour palette of re-usable SASS variables, amd organise styles to use. - Look at replacing with custom properties - Stretch Goal: Implement prefers-color-scheme */
 /* Button mixin- creates a button effect with correct highlights/shadows, based on a base color. */
 body { background: #f1f1f1; }
 
@@ -207,6 +208,8 @@ div#wp-responsive-toggle a:before { color: #333; }
 
 /* TinyMCE */
 .mce-container.mce-menu .mce-menu-item:hover, .mce-container.mce-menu .mce-menu-item.mce-selected, .mce-container.mce-menu .mce-menu-item:focus, .mce-container.mce-menu .mce-menu-item-normal.mce-active, .mce-container.mce-menu .mce-menu-item-preview.mce-active { background: #88C425; }
+
+#wpwrap { background-color: #fff; }
 
 #wpadminbar { background-color: #1B676B; }
 

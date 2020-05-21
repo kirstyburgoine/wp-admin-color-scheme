@@ -1,3 +1,10 @@
+/**
+ * TODO:
+ * - Create colour palette of re-usable SASS variables, amd organise styles to use.
+ * - Look at replacing with custom properties
+ * - Stretch Goal: Implement prefers-color-scheme
+ */
+
 // $base-color: #fa6900;
 $highlight-color: #88C425;
 // $notification-color: #e0e4cc;
@@ -7,6 +14,10 @@ $text-color: #333;
 
 
 @import "../_admin.scss";
+
+#wpwrap {
+  background-color: #fff;
+}
 
 #wpadminbar {
   background-color: #1B676B;
