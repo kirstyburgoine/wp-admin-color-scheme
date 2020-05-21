@@ -45,3 +45,33 @@ function kb_colors_test_block_enqueue() {
 }
 
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\kb_colors_test_block_enqueue' );
+
+/**
+ * Helper function to get stylesheet URL.
+ *
+ * @param string $color The folder name for this color scheme.
+ */
+function get_color_url( $color ) {
+	$suffix = is_rtl() ? '-rtl' : '';
+	return plugins_url( "$color/colors$suffix.css?v=" . VERSION, __FILE__ );
+}
+
+/**
+ * Register color schemes.
+ */
+function add_colors() {
+
+	wp_admin_css_color(
+		'goldfish',
+		__( 'Goldfish', 'admin_schemes' ),
+		get_color_url( 'goldfish' ),
+		array( '#69d2e7', '#a7dbdb', '#e0e4cc', '#f38630', '#fa6900' ),
+		array(
+			'base' => '#e4e5e7',
+			'focus' => '#fff',
+			'current' => '#fff',
+		)
+	);
+}
+
+add_action( 'admin_init', __NAMESPACE__ . '\add_colors' );

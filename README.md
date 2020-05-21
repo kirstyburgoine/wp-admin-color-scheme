@@ -5,3 +5,7 @@ This plugin is a test area to experiment with admin colors and core build proces
 Anybody is welcome to fork it and play around with it, however, the purpose is for experimental development and therefore, may have breaking changes introduced at any time.
 
 Please note, if you choose to use this plugin for any reason, no support is given.
+
+---------
+
+Base color scheme structure taken from admin color schemes plugin created by the WordPress Core Team: http://wordpress.org/plugins/admin-color-schemes/
