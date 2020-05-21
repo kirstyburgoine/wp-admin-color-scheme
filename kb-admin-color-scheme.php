@@ -62,12 +62,12 @@ function get_color_url( $color ) {
 function add_colors() {
 
 	wp_admin_css_color(
-		'goldfish',
-		__( 'Goldfish', 'admin_schemes' ),
+		'meadow',
+		__( 'Meadow', 'admin_schemes' ),
 		get_color_url( 'goldfish' ),
-		array( '#69d2e7', '#a7dbdb', '#e0e4cc', '#f38630', '#fa6900' ),
+		array( '#1B676B', '#519548', '#88C425', '#BEF202', '#EAFDE6' ),
 		array(
-			'base' => '#e4e5e7',
+			'base' => '#333',
 			'focus' => '#fff',
 			'current' => '#fff',
 		)

@@ -1,0 +1,69 @@
+// $base-color: #fa6900;
+$highlight-color: #88C425;
+// $notification-color: #e0e4cc;
+// $icon-color: #e0e4cc;
+$menu-icon: #333;
+$text-color: #333;
+
+
+@import "../_admin.scss";
+
+#wpadminbar {
+  background-color: #1B676B;
+}
+
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu,
+#wpadminbar .menupop .ab-sub-wrapper {
+  background-color: #EAFDE6;
+}
+
+#wpadminbar .ab-item, #wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon,
+#wpadminbar .ab-icon, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before, #wpadminbar .ab-item:after {
+  color: #fff;
+}
+
+#adminmenu .awaiting-mod, #adminmenu .update-plugins {
+  background-color: #BEF202;
+}
+
+#adminmenu li.current a .awaiting-mod, #adminmenu li a.wp-has-current-submenu .update-plugins, #adminmenu li:hover a .awaiting-mod, #adminmenu li.menu-top:hover > a .update-plugins {
+  background-color: #BEF202;
+}
+
+#adminmenu .wp-submenu a, #adminmenu .wp-has-current-submenu .wp-submenu a, .folded #adminmenu .wp-has-current-submenu .wp-submenu a, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a {
+  color: #fff;
+}
+
+#adminmenu .wp-submenu li.current a, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a, #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a {
+  color: #fff;
+}
+
+#adminmenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+  background-color: #519548;
+}
+
+
+.components-panel__header.edit-post-sidebar-header {
+  background-color: #EAFDE6;
+}
+
+.components-button.is-tertiary,
+.components-button.is-link {
+  color:  #1B676B;
+}
+
+.edit-post-sidebar__panel-tab.is-active {
+  box-shadow: inset 0 -3px #1B676B;
+}
+
+
+.editor-post-permalink input[type="checkbox"]:checked, .editor-post-permalink input[type="radio"]:checked, .edit-post-sidebar input[type="checkbox"]:checked, .edit-post-sidebar input[type="radio"]:checked, .editor-post-publish-panel input[type="checkbox"]:checked, .editor-post-publish-panel input[type="radio"]:checked, .block-editor-block-list__block input[type="checkbox"]:checked, .block-editor-block-list__block input[type="radio"]:checked, .components-popover input[type="checkbox"]:checked, .components-popover input[type="radio"]:checked, .components-modal__content input[type="checkbox"]:checked, .components-modal__content input[type="radio"]:checked {
+  background-color: #519548;
+  border-color: #519548;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  color: #fff;
+}
