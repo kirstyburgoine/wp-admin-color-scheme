@@ -64,7 +64,7 @@ function add_colors() {
 	wp_admin_css_color(
 		'meadow',
 		__( 'Meadow', 'admin_schemes' ),
-		get_color_url( 'goldfish' ),
+		get_color_url( 'meadow' ),
 		array( '#1B676B', '#519548', '#88C425', '#BEF202', '#EAFDE6' ),
 		array(
 			'base' => '#333',
