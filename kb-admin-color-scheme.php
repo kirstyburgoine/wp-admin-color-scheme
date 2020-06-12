@@ -36,6 +36,8 @@ use function add_action;
 use function wp_enqueue_script;
 use function wp_admin_css_color;
 
+const VERSION = '1.0';
+
 function kb_colors_test_block_enqueue() {
 	wp_enqueue_script(
 		'kb-colors-test-block-script',
